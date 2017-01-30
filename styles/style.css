@@ -2,20 +2,88 @@
   font-family: Arial, sans-serif;
   font-size: 16px;
 }
+h1 {
+  float: right;
+  font-weight: normal;
+  display: inline;
+  padding-right: 5px;
+  font-size: small;
+  padding-top: -2px;
+}
 
-div:first-child {
+button {
+  background: #4387fd;
+  border-radius: 2px;
+  cursor: pointer;
+  position: relative;
+  top: -7px;
+  right: 4px;
+  padding: 5px;
+  width: 69px;
+  color: white;
+  border: 1px solid #4387fd;
+  font-size: 13px;
+  margin-left: -17px;
+}
+.header {
+  padding-left: 9px;
+}
+
+h1 img {
+  width: 20px;
+  height: 24px;
+  position: relative;
+  top: 0px;
+  right: 35px;
+  border-radius: 300px 300px 300px 300px;
+  cursor: pointer;
+  box-shadow: 1px 2px 3px 2px #f2f2f2;
+}
+
+h1 img:hover {
+  box-shadow: 2px 3px 5px 5px lightblue;
+}
+
+table {
+  border: white;
+  display: inline-block;
+  cursor: pointer;
+  color: #f2f2f2;
+  position: relative;
+  top: -1px;
+  right: 50px;
+}
+
+table:hover td {
+  background-color: #000;
+}
+
+h1 a {
+  position: relative;
+  right: 56px;
+  top: -6px;
+}
+
+td {
+  width: 2px;
+  height: 2px;
+  background-color: #666;
+}
+
+.space {
   padding: 95px;
 }
 
-img {
+img:first-child {
   height: 92px;
   width: 272px;
+  padding-left: 46px;
 }
 
 .google {
   text-align: center;
   color: #4285f4;
-  margin: 0 0 0px 56px;
+  padding-left: 50px;
 }
 
 span {
@@ -29,11 +97,112 @@ form {
 }
 
 form input {
-  width: 568px;
-  height: 40px;
-  padding: 0px 0px 0 13px;
+  width: 556px;
+  height: 24px;
+  padding: 10px 11px 9px 15px;
+  outline: 0;
+  border: 0.1px solid #eaeaea;
   margin: 23px -15px 0 0;
   line-height: 34px;
   overflow: scroll;
-  border: 0.1px solid grey;
+  position: static;
+  box-shadow: 0 2px 2px 0 rgba(0,0,0,0.16),0 0 0 1px rgba(0,0,0,0.08);
+  transition: box-shadow 200ms cubic-bezier(0.4, 0.0, 0.2, 1);
+  border-radius: 2px;
+}
+
+input[type="text"]:hover {
+  border-color: lightblue lightblue lightblue lightblue;
+  box-shadow: 1px 4px 4px lightblue;
+}
+
+input:focus {
+  border-color: #4d90fe;
+  box-shadow: 9px 9px 5px #eaeaea;
+  outline: 0;
+}
+
+input[type="submit"] {
+  border-radius: 2px;
+  background: #f2f2f2;
+  border: 1px solid #f2f2f2;
+  color: #757575;
+  display: inline-block;
+  font-size: 13px;
+  font-weight: bold;
+  height: 36px;
+  line-height: 27px;
+  text-align: center;
+  outline: transparent;
+  padding-right: 12px;
+  padding-top: 2px;
+  padding-left: 10px;
+}
+
+body div:nth-child(3) {
+  margin: auto;
+  padding-left: 10px;
+}
+
+#gogo, #luck {
+  margin: auto;
+  margin-top: 32px;
+}
+
+#gogo {
+  width: 130px;
+}
+
+#luck {
+  margin-left: 5px;
+  margin-right: 10px;
+  width: 150px;
+  padding-top: -5px;
+}
+
+input[type="submit"]:hover {
+  color: black;
+  border: 0.1px solid black;
+}
+
+#space {
+  padding: 90px;
+}
+
+#footer {
+  background-color: #f2f2f2;
+  line-height: 40px;
+  border-top: 1px solid #e4e4e4;
+  color: #666;
+  position: fixed;
+  bottom: -2px;
+  left: 0;
+  right: 0;
+}
+
+#ftr-r  {
+  float: right;
+  margin-right: -30px;
+}
+
+#ftr-l {
+  margin-left: 57px;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a {
+  text-decoration: none;
+  color: #666;
+  font-size: 10pt;
+}
+
+.left {
+  padding-left: 27px;
+}
+
+.right {
+  padding-left: 27px;
 }
