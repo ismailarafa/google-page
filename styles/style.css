@@ -1,7 +1,10 @@
-.google {
-  text-align: center;
-  color: #4285f4;
-  margin: 0 0 0px 56px;
+* {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+}
+
+div:first-child {
+  padding: 95px;
 }
 
 img {
@@ -9,9 +12,10 @@ img {
   width: 272px;
 }
 
-* {
-  font-family: Arial, sans-serif;
-  font-size: 16px;
+.google {
+  text-align: center;
+  color: #4285f4;
+  margin: 0 0 0px 56px;
 }
 
 span {
@@ -32,8 +36,4 @@ form input {
   line-height: 34px;
   overflow: scroll;
   border: 0.1px solid grey;
-}
-
-div:first-child {
-  padding: 95px;
 }
