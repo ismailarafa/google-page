@@ -1,0 +1,39 @@
+.google {
+  text-align: center;
+  color: #4285f4;
+  margin: 0 0 0px 56px;
+}
+
+img {
+  height: 92px;
+  width: 272px;
+}
+
+* {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+}
+
+span {
+  position: relative;
+  top: -2.5px;
+  right: 57px;
+}
+
+form {
+  text-align: center;
+}
+
+form input {
+  width: 568px;
+  height: 40px;
+  padding: 0px 0px 0 13px;
+  margin: 23px -15px 0 0;
+  line-height: 34px;
+  overflow: scroll;
+  border: 0.1px solid grey;
+}
+
+div:first-child {
+  padding: 95px;
+}
